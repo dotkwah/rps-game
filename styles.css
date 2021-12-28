@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(182, 110, 204);
+    font-family: 'Roboto', sans-serif;
+}
+
+.header, .sub-header, .winner-announce, .computer-response{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    color: white; 
+}
+
+.header {
+    font-size: 50px;
+}
+
+.input-selectors, .reset-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.rock, .paper, .scissors{
+    display: flex;
+    flex-direction: column;
+}
