@@ -7,7 +7,7 @@
     <title>Rock Paper Scissors</title>
     <link rel="icon" href="Images/rock.png">
     <link rel="stylesheet" href="styles.css">
-    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="script.js" defer></script>
 </head>
 <body>
     <div class="header">Rock Paper Scissors Game</div>
@@ -26,10 +26,8 @@
             <input type="button" value="Scissors" onclick="playRound(2)"/>  
         </div>
     </div>
-    <div class="computer-response">
-        Computer Chooses :
-    </div>
-    <div class="winner-announce">Winner Announcer</div>
+    <div class="computer-response"></div>
+    <div class="winner-announce"></div>
     <div class="reset-button">
         <input type="button" value="Reset Game" onclick="resetGame()"/>
     </div>
